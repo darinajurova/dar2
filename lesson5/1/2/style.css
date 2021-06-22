@@ -1,0 +1,35 @@
+body {
+    background-color: beige;
+    background-image: url(../../img/Damask-Ornament.png);
+}
+
+article {
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(126, 99, 99, 0.507)
+}
+
+ol {
+    list-style-type: upper-roman;
+    color: blue;
+}
+
+ol ol {
+    list-style-type: decimal;
+}
+
+ol ol ol {
+    list-style-type: lower-latin;
+}
+
+ol ol ol li {
+    margin: 20px 0;
+    padding: 20px 30px;
+    background-color: #fff;
+}
+
+li::marker {
+    font-weight: 700;
+    color: black;
+}

@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+div {
+    height: 1000px;
+}
+
+#id1 {
+    background-color: royalblue;
+}
+
+#id2 {
+    background-color:sandybrown;
+
+}
+
+#id3 {
+    background-color:lightskyblue;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color:springgreen;
+}
+
+a:hover {
+    background-color:springgreen;
+    color: white;
+}
